@@ -19,5 +19,10 @@ int main()
 	* @note na
 	********************************** */
 	
-	//Currently functionless
+	// Currently this tests the Question class and the askQuestion function
+	Question myQuestion("What is 2+9?", "11");
+	
+	askQuestion(&myQuestion, 0);
+	
+	return 0;
 }
