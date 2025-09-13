@@ -9,7 +9,10 @@
 #define FUNCTIONS_H
 
 #include "questions.h"
-#include <iostream>
 
+#include <iostream>
+#include <string>
+
+void askQuestion(Question*, int);
 
 #endif /* FUNCTIONS_H */
